@@ -473,17 +473,20 @@ footer ul{
     max-width:100%;
     max-height:50%;
     margin: 0 auto;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     text-align: center;
     margin-top: 10px;
+    padding: 15px;
     
    }
    .banner-description{
     max-width:100% ;
     max-height:50%;
     margin: 0 auto;
+    padding: 12px;
     text-align: center;
     margin-top: 10px;
+    font-size: 1rem;
    }
    .banner-btn{
     margin-top: 15px;
@@ -507,6 +510,7 @@ footer ul{
    .section{
     display: none;
    }
+
   .sec1-item1 , .sec1-item2 , .sec1-item3 , .section-1{
     max-width: 100%;
    }
@@ -521,8 +525,20 @@ footer ul{
    }
    .sec1-item1 , .sec1-item2 , .sec1-item3{
     max-width: 22.3rem;
-    max-height: 20.8rem;
+    max-height: 18rem;
    }
+   .item-title{
+    font-size: 1.2rem;
+    
+}
+.item-description{
+    font-size: 0.8rem;
+ 
+}
+.item-btn1 , .item-btn2 , .item-btn3{
+    font-size: 0.85rem;
+  
+}
    .round{
     display: none;
    }
@@ -587,7 +603,6 @@ footer ul{
     .ftr-container{
         flex-direction: column;
         max-width:100%;
-        margin: 0 auto;
         padding: 0 15px;
     
      
