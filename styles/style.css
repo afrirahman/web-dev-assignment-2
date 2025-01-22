@@ -3,8 +3,8 @@ body{
      max-width: 120rem;
   
 }
-header{
-    max-width: 100rem;
+  footer , header{
+    max-width: 90rem;
     margin: 0 auto;
 }
 
@@ -113,6 +113,7 @@ header{
     height: 50px;
     width: 50px;
     border: none;
+    font-size: 1.8rem;
     border-radius: 8px;
     
 }
@@ -177,8 +178,8 @@ header{
     text-align: center;
 }
 .section1-container{
-    max-width: 100rem;
-    margin: 0 auto;
+    max-width: 90rem;
+    margin: 0 auto ;
     display: flex;
     justify-content: space-between;
     
@@ -263,6 +264,124 @@ header{
     font-weight: 900;
 }
 
+/* section-2 */
+.section-2{
+    margin-top: 60px;
+    margin-bottom: 80px;
+    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+.section2-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.section2-container{
+    max-width: 90rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-evenly;
+    gap:;
+   
+}
+.sec2-content1{
+    background: rgb(255, 255, 255);
+    width: 34rem;
+    height: 39rem;
+    border-radius: 16px;
+    align-items: center;
+}
+.sec2-content2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 32px;
+}
+.content1-img{
+    max-width: 100%;
+    margin: 0 auto;
+    margin-left: 2px;
+    border-radius: 16px 16px 0px 0px;
+   
+}
+.info1-title{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.info1-btn{
+    border: none;
+    border-radius:47px ;
+    background-color: rgb(60, 216, 232);
+    font-size: 1rem;
+    font-weight: 500;
+    height: 47px;
+    width: 174px;
+    position: relative;
+    left: 4rem;
+    bottom: 1.6rem;
+}
+.info1-item{
+  padding: 30px;
+  border-radius: 0px 0px 16px 16px;
+
+}
+.info2{
+    max-width:18.2rem ;
+    max-height: 18.5rem;
+    background-color:  rgb(255, 255, 255);
+    border-radius: 16px;
+}
+.info2-img{
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 16px 16px 0 0;
+}
+.info2-btn{
+    border: none;
+    border-radius:47px ;
+    background-color:rgb(149, 178, 38);
+    font-size: 1rem;
+    font-weight: 500;
+    height: 2.3rem;
+    width: 10.9rem;
+    position: relative;
+    left: 2rem;
+    bottom: 1.6rem;
+}
+.info3-btn{
+     border: none;
+    border-radius:47px ;
+    background-color: rgb(93, 88, 240);
+    font-size: 1rem;
+    font-weight: 500;
+    height: 2.3rem;
+    width: 10.9rem;
+    position: relative;
+    left: 2rem;
+    bottom: 1.6rem;
+}
+.info2-description{
+    margin: 0;
+    padding: 0 25px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.sec2{
+    text-align: center;
+    margin-top: 80px;
+ 
+}
+.sec2-btn{
+    margin-bottom:60px;
+    background-color: rgb(17, 17, 17);
+    border-radius: 12px;
+    width: 12.3rem;
+    height: 3.1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border: none;
+}
 
 /* media query part */
 @media screen and (max-width:576px) {
@@ -271,6 +390,11 @@ header{
         padding: 0 10px;
         
     }
+    .nav-img{
+      
+        margin-bottom: 3px;
+    }
+
    .button , .nav2 , .title{
         display: none;
     }
@@ -299,13 +423,19 @@ header{
    }
    .banner-btn{
     margin-top: 15px;
-    margin-left: 90px;
+    margin-left: 116px;
     
     
    }
 .banner-img{
     max-width: 100%;
     margin: 0 auto;
+}
+
+.banner-btn{
+    font-size:1rem ;
+    width: 8.3rem;
+    height: 2.6rem;
 }
    .underline{
     display: block;
@@ -318,13 +448,78 @@ header{
    }
    .section1-title{
     font-size: 2rem;
+    margin-bottom: 55px;
    }
    .section1-container{
     flex-direction: column;
     gap: 30px;
+    padding: 0 5px;
+   }
+   .sec1-item1 , .sec1-item2 , .sec1-item3{
+    max-width: 22.3rem;
+    max-height: 20.8rem;
    }
    .round{
     display: none;
    }
+
+   .section2-container{
+    flex-direction: column;
+   }
+   .sec2-content1{
+    display: none;
+   }
+  .info2 , .sec2-content2{
+    max-width: 100%;
+    margin: 0 auto;
+   }
+    
+   .info2-btn{
+    font-size: .7rem;
+    font-weight: 500;
+    height: 1.5rem;
+    width: 7rem;
+    left: 1.1rem;
+    bottom: 1.1rem;
+   
+}
+.info3-btn{
+    font-size: .7rem;
+    font-weight: 500;
+    height: 1.5rem;
+    width: 7rem;
+    left: 1.1rem;
+    bottom: 1.1rem;
+   
+}
+.sec2-content2{
+    grid-gap: 10px;
+    padding: 0 10px;
+}
+.info2-description{
+    margin: 0;
+    padding: 0 10px 15px;
+    font-size: .65rem;
+    font-weight: 600;
+}
+.section2-title{
+    font-size: 2.1rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.sec2{
+    margin-top: 40px;
+ 
+}
+.sec2-btn{
+  
+    width: 8.35rem;
+    height: 1.85rem;
+    font-size: .8rem;
+   
+}
+    
  
 }
